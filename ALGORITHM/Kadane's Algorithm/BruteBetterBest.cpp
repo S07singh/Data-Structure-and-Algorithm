@@ -16,7 +16,7 @@ vector<int> pairSum(vector<int> nums, int target) {
             
     //     }
         
-    // }
+    // } // O(n^2) TC
 
     int i = 0, j = n-1;
 
@@ -34,7 +34,7 @@ vector<int> pairSum(vector<int> nums, int target) {
     }
 
     return ans;
-}
+} // O(n) TC
 
 int main(){
 
